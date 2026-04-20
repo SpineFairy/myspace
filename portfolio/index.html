@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>김준석 | Portfolio</title>
+  <meta name="description" content="김준석의 포트폴리오 홈페이지입니다." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container nav">
+      <h1 class="logo">JUNSEOK</h1>
+      <nav>
+        <ul class="nav-menu">
+          <li><a href="#about">소개</a></li>
+          <li><a href="#projects">프로젝트</a></li>
+          <li><a href="#skills">기술</a></li>
+          <li><a href="#contact">연락처</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-content">
+        <p class="hero-tag">PORTFOLIO</p>
+        <h2>안녕하세요.<br />김준석입니다.</h2>
+        <p class="hero-desc">
+          배우고 만드는 과정을 좋아하며, 
+          꾸준히 프로젝트를 쌓아가는 개발 지향 포트폴리오입니다.
+        </p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn primary">프로젝트 보기</a>
+          <a href="#contact" class="btn secondary">연락하기</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <h3 class="section-title">소개</h3>
+        <div class="card">
+          <p>
+            저는 새로운 기술을 배우고 실제 결과물로 구현해보는 것을 좋아합니다.
+            단순히 기능을 만드는 것에 그치지 않고, 사용자가 보기 편하고 이해하기 쉬운 형태로
+            정리하는 것에도 관심이 있습니다.
+          </p>
+          <p>
+            현재는 웹, GitHub, Unity, Python 등 다양한 도구를 접하면서
+            작은 프로젝트를 직접 만들어보고 있습니다.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section alt">
+      <div class="container">
+        <h3 class="section-title">프로젝트</h3>
+        <div class="project-grid">
+          <article class="project-card">
+            <h4>포트폴리오 홈페이지</h4>
+            <p>
+              GitHub Pages를 활용해 배포한 개인 포트폴리오 사이트입니다.
+              반응형 레이아웃과 깔끔한 UI를 목표로 제작했습니다.
+            </p>
+            <div class="project-links">
+              <a href="#" target="_blank">GitHub</a>
+              <a href="#" target="_blank">Demo</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <h4>Unity 실습 프로젝트</h4>
+            <p>
+              Unity를 활용해 간단한 기능 구현과 테스트를 진행한 프로젝트입니다.
+              게임 오브젝트 제어와 구조 설계를 연습했습니다.
+            </p>
+            <div class="project-links">
+              <a href="#" target="_blank">GitHub</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <h4>Python 자동화 실습</h4>
+            <p>
+              Python으로 반복 작업을 줄이는 간단한 자동화 스크립트를 제작했습니다.
+              파일 처리와 데이터 다루기를 अभ्यास했습니다.
+            </p>
+            <div class="project-links">
+              <a href="#" target="_blank">GitHub</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="container">
+        <h3 class="section-title">기술</h3>
+        <div class="skills-list">
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>JavaScript</span>
+          <span>Git / GitHub</span>
+          <span>Python</span>
+          <span>Unity</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section alt">
+      <div class="container">
+        <h3 class="section-title">연락처</h3>
+        <div class="card">
+          <p>이메일: example@email.com</p>
+          <p>GitHub: <a href="https://github.com/your-id" target="_blank">github.com/your-id</a></p>
+          <p>블로그 또는 노션: <a href="#" target="_blank">링크 추가</a></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2026 김준석. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <button id="topBtn" class="top-btn" aria-label="맨 위로 이동">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
